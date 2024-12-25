@@ -1,11 +1,12 @@
 // Importing necessary modules
 import React from "react";
 import Upload from "./Upload";
+import Chat from "./Chat";
 
 const Hero = () => {
       return (
             <>
-                  <section className="bg-gray-100 text-center py-20">
+                  <section className="bg-gray-100 text-center pt-40 pb-20 " id="home">
                         <div className="container mx-auto">
                               <h1 className="text-4xl font-bold text-gray-800 mb-6">
                                     Do you want to find out your career path?
@@ -24,6 +25,9 @@ const Hero = () => {
 
                   <section id="upload">
                         <Upload />
+                  </section>
+                  <section id="chat">
+                        <Chat />
                   </section>
             </>
       );
