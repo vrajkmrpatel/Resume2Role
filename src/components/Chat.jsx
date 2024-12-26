@@ -24,7 +24,7 @@ const Chat = () => {
             setIsLoading(true); // Show loading indicator
             setResponse(""); // Clear previous response
             try {
-                  const res = await axios.post("http://localhost:5000/api/generate", {
+                  const res = await axios.post("https://render-flask-app-gn0m.onrender.com/api/generate", {
                         prompt: prompt,
                   });
                   setResponse(res.data.text);
