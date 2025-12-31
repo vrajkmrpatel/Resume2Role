@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="16" cy="16" r="16" fill="url(#grad1)"/>
+  
+  <!-- Document Icon -->
+  <path d="M10 8C10 7.44772 10.4477 7 11 7H17.5858C17.851 7 18.1054 7.10536 18.2929 7.29289L21.7071 10.7071C21.8946 10.8946 22 11.149 22 11.4142V24C22 24.5523 21.5523 25 21 25H11C10.4477 25 10 24.5523 10 24V8Z" fill="white"/>
+  
+  <!-- Lines on document -->
+  <line x1="13" y1="14" x2="19" y2="14" stroke="url(#grad1)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="13" y1="17" x2="19" y2="17" stroke="url(#grad1)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="13" y1="20" x2="16" y2="20" stroke="url(#grad1)" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Arrow/Direction indicator -->
+  <path d="M19 10L22 13" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
